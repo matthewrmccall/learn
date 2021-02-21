@@ -74,5 +74,8 @@ function Comment(props) {
     {props.text}
     </div>
     <div className="Comment-date">
-  )
+    {formatDate(props.date)}
+    </div>
+  </div>
+  );
 }
